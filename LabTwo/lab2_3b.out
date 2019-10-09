@@ -1,0 +1,185 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    704405.qb3
+Username:  lrc035
+Group:     latechusers
+Date:      08-Oct-2019 19:56
+Node:      qb052 (65871)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb052
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb052 19:56:32 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 08-Oct-2019 19:56:32
+------------------------------------------------------
+MPI run with 2 processes
+Local sum on process # 1 is 252479023.000000.
+Local sum on process # 0 is 252552920.000000.
+The total sum  is 505031943.000000.
+Time elapsed is 0.004956 secs.
+MPI run with 4 processes
+Local sum on process # 1 is 126271019.000000.
+Local sum on process # 0 is 126329478.000000.
+The total sum  is 505109360.000000.
+Time elapsed is 0.004408 secs.
+Local sum on process # 2 is 126224428.000000.
+Local sum on process # 3 is 126284435.000000.
+MPI run with 6 processes
+Local sum on process # 5 is 84113273.000000.
+Local sum on process # 4 is 84223647.000000.
+Local sum on process # 3 is 84113153.000000.
+Local sum on process # 2 is 84152967.000000.
+Local sum on process # 1 is 84138951.000000.
+Local sum on process # 0 is 84172427.000000.
+The total sum  is 504914418.000000.
+Time elapsed is 0.005481 secs.
+MPI run with 8 processes
+Local sum on process # 3 is 63067513.000000.
+Local sum on process # 1 is 63098050.000000.
+Local sum on process # 5 is 63088180.000000.
+Local sum on process # 7 is 63083153.000000.
+Local sum on process # 6 is 63101823.000000.
+Local sum on process # 4 is 63169731.000000.
+Local sum on process # 2 is 63116403.000000.
+Local sum on process # 0 is 63111738.000000.
+The total sum  is 504836591.000000.
+Time elapsed is 0.006146 secs.
+MPI run with 10 processes
+Local sum on process # 1 is 50512122.000000.
+Local sum on process # 7 is 50478891.000000.
+Local sum on process # 9 is 50472495.000000.
+Local sum on process # 5 is 50483779.000000.
+Local sum on process # 3 is 50531926.000000.
+Local sum on process # 2 is 50448740.000000.
+Local sum on process # 4 is 50490660.000000.
+Local sum on process # 6 is 50472773.000000.
+Local sum on process # 8 is 50481428.000000.
+Local sum on process # 0 is 50457477.000000.
+The total sum  is 504830291.000000.
+Time elapsed is 0.007711 secs.
+MPI run with 12 processes
+Local sum on process #10 is 42045640.000000.
+Local sum on process #11 is 42054855.000000.
+Local sum on process # 6 is 42049939.000000.
+Local sum on process # 7 is 42068394.000000.
+Local sum on process # 3 is 42083999.000000.
+Local sum on process # 2 is 42107920.000000.
+Local sum on process # 5 is 42069325.000000.
+Local sum on process # 4 is 42061302.000000.
+Local sum on process # 9 is 42079817.000000.
+Local sum on process # 1 is 42037489.000000.
+Local sum on process # 0 is 42071718.000000.
+The total sum  is 504776253.000000.
+Time elapsed is 0.007470 secs.
+Local sum on process # 8 is 42045855.000000.
+MPI run with 14 processes
+Local sum on process #10 is 36044139.000000.
+Local sum on process #11 is 36051088.000000.
+Local sum on process #13 is 36097153.000000.
+Local sum on process #12 is 36087935.000000.
+Local sum on process # 5 is 36057004.000000.
+Local sum on process # 3 is 36075066.000000.
+Local sum on process # 8 is 36050132.000000.
+Local sum on process # 9 is 36076981.000000.
+Local sum on process # 1 is 36021980.000000.
+Local sum on process # 6 is 36040087.000000.
+Local sum on process # 7 is 36049275.000000.
+Local sum on process # 2 is 36083229.000000.
+Local sum on process # 4 is 36053516.000000.
+Local sum on process # 0 is 36064694.000000.
+The total sum  is 504852279.000000.
+Time elapsed is 0.007789 secs.
+MPI run with 16 processes
+Local sum on process #11 is 31584491.000000.
+Local sum on process #14 is 31571794.000000.
+Local sum on process #15 is 31553172.000000.
+Local sum on process #10 is 31549850.000000.
+Local sum on process #12 is 31579949.000000.
+Local sum on process #13 is 31559314.000000.
+Local sum on process # 9 is 31539532.000000.
+Local sum on process # 8 is 31559879.000000.
+Local sum on process # 5 is 31545603.000000.
+Local sum on process # 7 is 31518184.000000.
+Local sum on process # 3 is 31537913.000000.
+Local sum on process # 4 is 31543037.000000.
+Local sum on process # 6 is 31528762.000000.
+Local sum on process # 1 is 31575765.000000.
+Local sum on process # 2 is 31568621.000000.
+Local sum on process # 0 is 31527622.000000.
+The total sum  is 504843488.000000.
+Time elapsed is 0.008156 secs.
+MPI run with 18 processes
+Local sum on process #12 is 28053886.000000.
+Local sum on process #13 is 28056366.000000.
+Local sum on process #14 is 28036969.000000.
+Local sum on process #15 is 28072206.000000.
+Local sum on process #16 is 28078803.000000.
+Local sum on process #17 is 28058166.000000.
+Local sum on process #10 is 28075419.000000.
+Local sum on process #11 is 28068465.000000.
+Local sum on process # 5 is 28025377.000000.
+Local sum on process # 7 is 28049200.000000.
+Local sum on process # 9 is 28043251.000000.
+Local sum on process # 4 is 28035057.000000.
+Local sum on process # 6 is 28019594.000000.
+Local sum on process # 8 is 28029858.000000.
+Local sum on process # 3 is 28039173.000000.
+Local sum on process # 2 is 28037112.000000.
+Local sum on process # 1 is 28062379.000000.
+Local sum on process # 0 is 28081465.000000.
+The total sum  is 504922746.000000.
+Time elapsed is 0.009765 secs.
+MPI run with 20 processes
+Local sum on process # 1 is 25237777.000000.
+Local sum on process # 7 is 25229205.000000.
+Local sum on process # 9 is 25266197.000000.
+Local sum on process #11 is 25258185.000000.
+Local sum on process #15 is 25270037.000000.
+Local sum on process #17 is 25282447.000000.
+Local sum on process # 2 is 25233752.000000.
+Local sum on process # 3 is 25223261.000000.
+Local sum on process # 4 is 25220417.000000.
+Local sum on process # 5 is 25224405.000000.
+Local sum on process # 6 is 25247604.000000.
+Local sum on process #10 is 25257215.000000.
+Local sum on process #13 is 25228084.000000.
+Local sum on process #18 is 25246059.000000.
+Local sum on process #19 is 25242356.000000.
+Local sum on process #14 is 25262438.000000.
+Local sum on process #16 is 25248770.000000.
+Local sum on process #12 is 25263139.000000.
+Local sum on process # 8 is 25228312.000000.
+Local sum on process # 0 is 25247994.000000.
+The total sum  is 504917654.000000.
+Time elapsed is 0.009454 secs.
+------------------------------------------------------
+Running PBS epilogue script    - 08-Oct-2019 19:56:39
+------------------------------------------------------
+Checking node qb052 (MS)
+Checking node qb052 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 08-Oct-2019 19:56:41
+------------------------------------------------------
+Exit Status:     0
+Job ID:          704405.qb3
+Username:        lrc035
+Group:           latechusers
+Job Name:        lab2_3b
+Session Id:      65870
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:36,mem=0kb,vmem=0kb,walltime=00:00:09
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb052
+Process id:      66718
+------------------------------------------------------

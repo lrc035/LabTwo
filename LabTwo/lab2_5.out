@@ -1,0 +1,73 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    704401.qb3
+Username:  lrc035
+Group:     latechusers
+Date:      08-Oct-2019 19:53
+Node:      qb051 (65597)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb051
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb051 19:53:33 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 08-Oct-2019 19:53:33
+------------------------------------------------------
+MPI run with 4 processes
+The message at process # 1: Hello, lrc035, from  0!
+
+The message at process # 2: Hello, lrc035, from  1!
+
+The message at process # 3: Hello, lrc035, from  2!
+
+The message at process # 0: Hello, lrc035, from  3!
+
+Time elapsed is 0.000142 seconds.
+MPI run with 8 processes
+The message at process # 1: Hello, lrc035, from  0!
+
+The message at process # 2: Hello, lrc035, from  1!
+
+The message at process # 3: Hello, lrc035, from  2!
+
+The message at process # 4: Hello, lrc035, from  3!
+
+The message at process # 5: Hello, lrc035, from  4!
+
+The message at process # 6: Hello, lrc035, from  5!
+
+The message at process # 7: Hello, lrc035, from  6!
+
+The message at process # 0: Hello, lrc035, from  7!
+
+Time elapsed is 0.000228 seconds.
+------------------------------------------------------
+Running PBS epilogue script    - 08-Oct-2019 19:53:34
+------------------------------------------------------
+Checking node qb051 (MS)
+Checking node qb051 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 08-Oct-2019 19:53:36
+------------------------------------------------------
+Exit Status:     0
+Job ID:          704401.qb3
+Username:        lrc035
+Group:           latechusers
+Job Name:        lab2_5
+Session Id:      65596
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:03,mem=0kb,vmem=0kb,walltime=00:00:03
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb051
+Process id:      66231
+------------------------------------------------------

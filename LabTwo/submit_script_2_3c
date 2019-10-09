@@ -1,0 +1,37 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=01:00:00
+#PBS -N lab2_3c
+#PBS -o lab2_3c.out
+#PBS -e lab2_3c.err
+#PBS -q workq
+#PBS -A loni_cyen405
+#PBS -m e
+#PBS -M lrc035@latech.edu
+
+work="/home/lrc035/labTwo/labTwoSubmission"
+XFILE="lab2_3c"
+
+cd $work
+
+echo "MPI run with 2 processes"
+mpirun -np 2 -machinefile $PBS_NODEFILE ./$XFILE
+echo "MPI run with 4 processes"
+mpirun -np 4 -machinefile $PBS_NODEFILE ./$XFILE
+echo "MPI run with 6 processes"
+mpirun -np 6 -machinefile $PBS_NODEFILE ./$XFILE
+echo "MPI run with 8 processes"
+mpirun -np 8 -machinefile $PBS_NODEFILE ./$XFILE
+echo "MPI run with 10 processes"
+mpirun -np 10 -machinefile $PBS_NODEFILE ./$XFILE
+echo "MPI run with 12 processes"
+mpirun -np 12 -machinefile $PBS_NODEFILE ./$XFILE
+echo "MPI run with 14 processes"
+mpirun -np 14 -machinefile $PBS_NODEFILE ./$XFILE
+echo "MPI run with 16 processes"
+mpirun -np 16 -machinefile $PBS_NODEFILE ./$XFILE
+echo "MPI run with 18 processes"
+mpirun -np 18 -machinefile $PBS_NODEFILE ./$XFILE
+echo "MPI run with 20 processes"
+mpirun -np 20 -machinefile $PBS_NODEFILE ./$XFILE
+

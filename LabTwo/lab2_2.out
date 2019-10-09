@@ -1,0 +1,61 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    704396.qb3
+Username:  lrc035
+Group:     latechusers
+Date:      08-Oct-2019 19:36
+Node:      qb088 (51153)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb088
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb088 19:36:32 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 08-Oct-2019 19:36:32
+------------------------------------------------------
+MPI run with 4 processes
+Hello, lrc035 from #0 of 4!
+Hello, lrc035 from #1 of 4!
+Hello, lrc035 from #2 of 4!
+Hello, lrc035 from #3 of 4!
+Time elapsed is 0.000126 secs.
+MPI run with 8 processes
+Hello, lrc035 from #0 of 8!
+Hello, lrc035 from #1 of 8!
+Hello, lrc035 from #2 of 8!
+Hello, lrc035 from #3 of 8!
+Hello, lrc035 from #4 of 8!
+Hello, lrc035 from #5 of 8!
+Hello, lrc035 from #6 of 8!
+Hello, lrc035 from #7 of 8!
+Time elapsed is 0.000131 secs.
+------------------------------------------------------
+Running PBS epilogue script    - 08-Oct-2019 19:36:33
+------------------------------------------------------
+Checking node qb088 (MS)
+Checking node qb088 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 08-Oct-2019 19:36:35
+------------------------------------------------------
+Exit Status:     0
+Job ID:          704396.qb3
+Username:        lrc035
+Group:           latechusers
+Job Name:        lab2_2
+Session Id:      51152
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:03,mem=0kb,vmem=0kb,walltime=00:00:03
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb088
+Process id:      51787
+------------------------------------------------------
